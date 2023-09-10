@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ee6352;
+    margin: 0;
+    padding: 0;
+    color: #522A27;
+}
+
+header {
+    background-color: #b0d0d3;
+    padding: 20px;
+    text-align: center;
+    color: #F4FFF2FF;
+}
+
+nav {
+    background-color: #ffc2e2;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+nav a {
+    color: #313131;
+    text-decoration: none;
+    margin: 10px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Style the "About Us" section */
+.about {
+    background-color: #f3da6a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Our Location" section */
+.location {
+    background-color: #f3da6a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    header {
+        font-size: 24px;
+    }
+
+    .about,
+    .location {
+        width: 90%; /* Make sections full width on smaller screens */
+    }
+
+    /* Add some spacing to paragraphs on smaller screens */
+    p {
+        margin-bottom: 20px;
+    }
+
+    /* Make the map responsive */
+    iframe {
+        width: 100%;
+        height: 500px; /* Adjust the height as needed */
+    }
+}

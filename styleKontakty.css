@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ee6352;
+    margin: 0;
+    padding: 0;
+    color: #522A27;
+}
+
+header {
+    background-color: #b0d0d3;
+    padding: 20px;
+    text-align: center;
+    color: #F4FFF2FF;
+}
+
+nav {
+    background-color: #ffc2e2;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+nav a {
+    color: #313131;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Style the main content area */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the "Contact Information" section */
+.contact-info {
+    background-color: #f3de6a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Contact Form" section */
+.contact-form {
+    background-color: #f3de6a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Basic styling for the form elements */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #948dec;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    header {
+        font-size: 24px;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%; /* Make sections full width on smaller screens */
+    }
+
+    /* Adjust margins and padding for better spacing on smaller screens */
+    .contact-info {
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    /* Center align form elements on smaller screens */
+    form {
+        text-align: center;
+    }
+
+    /* Add some spacing to form elements */
+    label,
+    input,
+    textarea,
+    button {
+        margin: 10px 0;
+    }
+}

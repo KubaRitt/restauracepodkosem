@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ee6352;
+    margin: 0;
+    padding: 0;
+    color: #522A27;
+}
+
+header {
+    background-color: #b0d0d3;
+    padding: 20px;
+    text-align: center;
+    color: #F4FFF2FF;
+}
+
+nav {
+    background-color: #ffc2e2;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+nav a {
+    color: #313131;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: #522A27;
+}
+
+.menu-item {
+    border: 5px solid #f3de6a;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: #f3de6a;
+    color: #49392c;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust the header font size for smaller screens */
+    header {
+        font-size: 24px;
+    }
+    
+    /* Stack the navigation links on top of each other for smaller screens */
+    nav {
+        flex-direction: column;
+    }
+
+    
+    /* Adjust the menu item layout for smaller screens */
+    .menu-item {
+        margin-bottom: 20px;
+    }
+}
+
