@@ -83,10 +83,6 @@ button {
         font-size: 14px; /* Decrease font size for smaller screens */
     }
 
-    header {
-        font-size: 24px;
-    }
-
     .contact-info,
     .contact-form {
         width: 100%; /* Make sections full width on smaller screens */
@@ -95,6 +91,7 @@ button {
     /* Adjust margins and padding for better spacing on smaller screens */
     .contact-info {
         margin-bottom: 20px;
+        max-width: 80%;
     }
 
     .contact-form {
